@@ -11,6 +11,8 @@
 #include "list.h"
 
 list_t *list_alloc() { return NULL; }
+  list_t * myList = (list_t *) malloc(sizeof(list_t));
+  return myList; }
 void list_free(list_t *l) {}
 
 void list_print(list_t *l) {}
